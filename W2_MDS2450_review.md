@@ -36,8 +36,8 @@
 
    void GPIO_Init() 
    {
-	    rGPGCON |= (0x55<<8); // LED Init 
-   	    rGPGDAT |= (0x0f<<4); // LED Off
+     	rGPGCON |= (0x55<<8); // LED Init 
+     	rGPGDAT |= (0x0f<<4); // LED Off
    
      	rGPGCON |= (0x01); //Switch downbelow Init
     	rGPFCON |= (0x01<<14); //Switch downbelow Init
@@ -54,7 +54,6 @@
     //주석좀 달고 코드를 깔꿈하게 수정해야되는데..?
    ```
    * ()사진넣어줭
-
    * 글적어줭
 
 
